@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-/*css for universal  */
+/*css for share  */
  body {
     font-family: "Azeret Mono", monospace;
  }
@@ -18,6 +18,11 @@
     color: #0D1321;
     text-align: center;
 }
+.card-a {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 700;
+}
  
  /* css for header */
 .header-container {
@@ -25,6 +30,8 @@
     height: 652px;
     margin: 0 auto;
     background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
 }
 .banner-content {
     width: 998px;
@@ -50,15 +57,19 @@
     font-weight: 700;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px solid rgba(128, 128, 128, 0.55);
 }
 /* css for main section */
 .development-container {
-    background-color: #f6f3f3;
+    background-color: rgba(242, 238, 238, 0.55);
     width: 1140px;
     height: 1350px;
     margin: 0 auto;
     margin-top: 74px;
     margin-bottom: 90px;
+    border: 1px solid rgba(128, 128, 128, 0.55);
+    border-radius: 16px;
+    padding-bottom: 50px;
 }
 .development-content {
     width: 946px;
@@ -93,6 +104,7 @@
     background-color: white;
     color: #0D1321;
     cursor: pointer;
+    border: 1px solid rgba(128, 128, 128, 0.55);
 }
 /* css for video section */
 .video-section {
@@ -115,7 +127,6 @@
     width: 1140px;
     height: 485px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-top: 150px;
 }
 .card-contents {
@@ -139,9 +150,57 @@
     font-size: 16px;
     color: #0D1321;
 }
-.card a {
-    color: #0D1321;
+.card-css {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.card-js {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+/* css for next target */
+.next-target {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+.next-target-container {
+    width: 1140px;
+    border: 1px solid rgba(128, 128, 128, 0.55);
+    margin-top: 24px;
+    border-radius: 16px;
+}
+.next-target-content {
+    width: 1060px;
+    margin: 40px;
+    display: flex;
+    gap: 24px;
+}
+/* css for footer */
+.support-section {
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 1140px;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.support-content {
+    width: 1044px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support-content h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
+.support-content p {
     font-size: 16px;
-    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
 
 }
