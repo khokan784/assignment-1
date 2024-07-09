@@ -4,6 +4,13 @@
  body {
     font-family: "Azeret Mono", monospace;
  }
+ .share-color {
+    color: #0D1321;
+ }
+ .share-p {
+    font-size: 16px;
+    color: #0D1321;
+}
  
  /* css for header */
 .header-container {
@@ -30,11 +37,6 @@
     font-weight: 900;
     text-align: center;
 }
-.banner-content p {
-    font-size: 16px;
-    color: #0D1321;
-    font-weight: 900;
-}
 .btn {
     padding: 21px 24px;
     background-color: #0D1321;
@@ -42,4 +44,46 @@
     font-size: 20px;
     font-weight: 700;
     border-radius: 8px;
+    cursor: pointer;
+}
+/* css for main section */
+.development-container {
+    width: 1440px;
+    height: 1393px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 74px;
+}
+.development-content {
+    width: 946px;
+    height: 1233px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.development-title h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    text-align: center;
+}
+.development-sub-content {
+    display: flex;
+    gap: 98px;
+    justify-content: space-between;
+    padding: 48px;
+}
+.development-details h3 {
+    font-size: 24px;
+    color: #0D1321;
+}
+.btn-2 {
+    padding: 12px 20px;
+    background-color: white;
+    color: #0D1321;
+    cursor: pointer;
 }
