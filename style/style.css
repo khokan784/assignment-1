@@ -10,6 +10,13 @@
  .share-p {
     font-size: 16px;
     color: #0D1321;
+    text-align: center;
+}
+.share-h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    text-align: center;
 }
  
  /* css for header */
@@ -18,14 +25,12 @@
     height: 652px;
     margin: 0 auto;
     background-image: url(../assets/Hero-bg.png);
-    border: 2px solid red;
 }
 .banner-content {
     width: 998px;
     height: 581px;
     margin: 0 auto;
     margin-top: 26px;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,30 +53,32 @@
 }
 /* css for main section */
 .development-container {
-    width: 1440px;
-    height: 1393px;
+    background-color: #f6f3f3;
+    width: 1140px;
+    height: 1350px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-top: 74px;
+    margin-bottom: 90px;
 }
 .development-content {
     width: 946px;
     height: 1233px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.development-title h2 {
-    font-size: 32px;
-    font-weight: 800;
-    color: #0D1321;
-    text-align: center;
+.development-content p {
+    margin-bottom: 40px;
+}
+.gap {
+    margin: 40px 0;
 }
 .development-sub-content {
+    background-color: white;
+    border-radius: 8px;
     display: flex;
     gap: 98px;
     justify-content: space-between;
@@ -86,4 +93,55 @@
     background-color: white;
     color: #0D1321;
     cursor: pointer;
+}
+/* css for video section */
+.video-section {
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video {
+    width: 1076px;
+    height: 550px;
+    margin: 32px auto;
+}
+
+/* css for target section */
+.target-container {
+    width: 1140px;
+    height: 485px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 150px;
+}
+.card-contents {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.card {
+    width: 284px;
+    height: 257px;
+    padding: 40px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+.card h4 {
+    font-size: 24px;
+    font-weight: 800;
+}
+.card p {
+    font-size: 16px;
+    color: #0D1321;
+}
+.card a {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 700;
+
 }
