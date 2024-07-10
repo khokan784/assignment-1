@@ -12,6 +12,11 @@
     color: #0D1321;
     text-align: center;
 }
+ .share-left-align-p {
+    font-size: 16px;
+    color: #0D1321;
+}
+
 .share-h2 {
     font-size: 32px;
     font-weight: 800;
@@ -25,6 +30,22 @@
 }
  
  /* css for header */
+
+ .top-header-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .header-btn {
+    padding: 17px 24px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.55);
+    cursor: pointer;
+ }
 .header-container {
     max-width: 1440px;
     height: 652px;
@@ -56,6 +77,7 @@
     font-size: 20px;
     font-weight: 700;
     border-radius: 8px;
+    margin-top: 30px;
     cursor: pointer;
     border: 1px solid rgba(128, 128, 128, 0.55);
 }
@@ -170,6 +192,7 @@
     width: 1140px;
     margin: 0 auto;
     margin-top: 110px;
+    margin-bottom: 80px;
 }
 .next-target-container {
     width: 1140px;
@@ -181,20 +204,36 @@
     width: 1060px;
     margin: 40px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
 }
+.react-content h5 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0;
+}
 /* css for footer */
+.footer-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .support-section {
+    background-color: rgb(0, 0, 0, 0.5);
     background-image: url(../assets/handshake.jpg);
     background-size: cover;
     background-position: center;
+    background-blend-mode: overlay;
     width: 1140px;
     height: 320px;
     margin: 0 auto;
+    margin-bottom: 50px;
     border-radius: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .support-content {
     width: 1044px;
@@ -241,4 +280,7 @@
     justify-content: space-between;
     align-items: center;
 
+}
+.footer-last-area {
+    background-color: rgba(13, 19, 33, 0.03);
 }
