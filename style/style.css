@@ -120,6 +120,14 @@
     width: 1076px;
     height: 550px;
     margin: 32px auto;
+    border: 1px solid rgba(128, 128, 128, 0.55);
+    padding: 32px;
+    border-radius: 16px;
+}
+.youtube-video {
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
 }
 
 /* css for target section */
@@ -183,8 +191,10 @@
     width: 1140px;
     height: 320px;
     margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 80px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .support-content {
     width: 1044px;
@@ -202,5 +212,19 @@
 .support-content p {
     font-size: 16px;
     color: rgba(255, 255, 255, 1);
-
+}
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.input-suggest {
+    padding: 19px 200px 19px 20px;
+}
+.input-submit {
+    padding: 15px 22px;
+    font-size: 20px;
+    font-weight: 700;
 }
